@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflowExample", "StackOverflowExample\StackOverflowExample.csproj", "{67EA5F85-BEA6-4FC0-AC36-BB27D1D8245F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeakExample", "MemoryLeakExample\MemoryLeakExample.csproj", "{7565BE02-85F2-4D94-98EA-206BE46EF601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{67EA5F85-BEA6-4FC0-AC36-BB27D1D8245F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67EA5F85-BEA6-4FC0-AC36-BB27D1D8245F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67EA5F85-BEA6-4FC0-AC36-BB27D1D8245F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7565BE02-85F2-4D94-98EA-206BE46EF601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7565BE02-85F2-4D94-98EA-206BE46EF601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7565BE02-85F2-4D94-98EA-206BE46EF601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7565BE02-85F2-4D94-98EA-206BE46EF601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
