@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.489
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverflowExample", "StackOverflowExample\StackOverflowExample.csproj", "{67EA5F85-BEA6-4FC0-AC36-BB27D1D8245F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordInMemoryExample", "PasswordInMemoryExample\PasswordInMemoryExample.csproj", "{F0FDDEF9-6CED-4AB9-98ED-F4A16937B109}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordInMemorySecureExample", "PasswordInMemorySecureExample\PasswordInMemorySecureExample.csproj", "{AB248EA8-7523-4BF7-9405-AD9F5C650D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerLeak", "XmlSerializerLeak\XmlSerializerLeak.csproj", "{419D082E-76BD-4A7E-8809-3C8793D70A23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AB248EA8-7523-4BF7-9405-AD9F5C650D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB248EA8-7523-4BF7-9405-AD9F5C650D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB248EA8-7523-4BF7-9405-AD9F5C650D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419D082E-76BD-4A7E-8809-3C8793D70A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419D082E-76BD-4A7E-8809-3C8793D70A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419D082E-76BD-4A7E-8809-3C8793D70A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419D082E-76BD-4A7E-8809-3C8793D70A23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace MemoryLeakExample
 {
@@ -29,8 +31,15 @@ namespace MemoryLeakExample
     class Program
     {
         public static Random Random = new Random();
+        private static Timer _timer;
+
         static void Main(string[] args)
         {
+            _timer = new Timer(TimeSpan.FromSeconds(2).TotalMilliseconds);
+            _timer.Elapsed += PrintMemoryUsage;
+            _timer.Start();
+
+
             var root = new Container();
             root.AddChildren();
 
@@ -41,6 +50,12 @@ namespace MemoryLeakExample
 
             Console.WriteLine("Press any key to kill the process.");
             Console.ReadLine();
+        }
+
+        private static void PrintMemoryUsage(Object source, ElapsedEventArgs e)
+        {
+            var proc = Process.GetCurrentProcess();
+            Console.WriteLine($"Private bytes: {proc.PrivateMemorySize64 / 1024 / 1024}MB");
         }
 
     }
