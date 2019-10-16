@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordInMemoryExample", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordInMemorySecureExample", "PasswordInMemorySecureExample\PasswordInMemorySecureExample.csproj", "{AB248EA8-7523-4BF7-9405-AD9F5C650D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerLeak", "XmlSerializerLeak\XmlSerializerLeak.csproj", "{419D082E-76BD-4A7E-8809-3C8793D70A23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlSerializerLeakExample", "XmlSerializerLeak\XmlSerializerLeakExample.csproj", "{419D082E-76BD-4A7E-8809-3C8793D70A23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

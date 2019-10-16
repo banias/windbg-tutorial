@@ -1,0 +1,13 @@
+.sympath srv*c:\Symbols*http://msdl.microsoft.com/download/symbols
+.sympath srv*c:\Symbols*C:\ProgramData\Dbg\sym\*http://localhost:33417
+
+.load C:\Windows\Microsoft.NET\Framework64\v4.0.30319\sos
+.load C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr
+
+~*e!dumpstack
+
+!DumpDomain
+
+!dumpheap -stat
+
+.cordll -ve -u -l
