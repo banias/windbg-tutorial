@@ -7,7 +7,22 @@
 ~*e!dumpstack
 
 !DumpDomain
+!address -summary
 
 !dumpheap -stat
 
+!gcheapstat
+
+!gcroot
+
+!address
+
+!ClrStack
+
+k Lffff
+
+!u 
+
 .cordll -ve -u -l
+
+-debugArch x86
